@@ -40,6 +40,6 @@ flutter:
     - .env
 
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: "ic_launcher"
   ios: true
   image_path: "assets/icons/kakaollama_logo.png"

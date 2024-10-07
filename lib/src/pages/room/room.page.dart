@@ -163,6 +163,8 @@ class _RoomPageState extends State<RoomPage> {
         children: [
           Column(
             children: [
+              if (widget.room.indexPinnedMessage != -1)
+                const SizedBox(height: 80),
               buildChatMessages(),
               buildBottomActionBar(),
             ],

@@ -53,10 +53,6 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void _showAddRoomDialog() {
-   
-  }
-
   void _addRoom(String agentName) async {
     setState(() {
       rooms.add(Room(agentName: agentName));

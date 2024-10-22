@@ -1,7 +1,8 @@
-<img src="./assets/icons/kakaollama_logo.png" alt="drawing" width="200"/>
+<img src="./assets/icons/kakaollama_logo.png" alt="drawing" width="200" style="border-radius: 20px"/>
 
 # KakaoLlama !!
 
 This app was a school project at Chung-Ang University very funny with a wonderful icon. We had been some restrictions but overall it was very cool to talking with all those Llama 🦙 :)
 
-<video src="./README/demo.mp4" width="200" height="400" controls preload></video>
+<img src="./README/demo_part_I.gif" width="200" controls preload></img>
+<img src="./README/demo_part_II.gif" width="200" controls preload></img>

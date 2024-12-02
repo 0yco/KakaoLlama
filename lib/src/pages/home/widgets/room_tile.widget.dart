@@ -87,10 +87,16 @@ class RoomTile extends StatelessWidget {
               _readableDate,
               style: context.text.labelSmall,
             ),
-          if (room.nbNewMessages != 0)
+          /// UNREAD MESSAGES BADGE CANNOT BE IMPLEMENTED ///
+          // if (room.nbNewMessages != 0)
+          //   Badge(
+          //     backgroundColor: Theme.of(context).colorScheme.tertiary,
+          //     label: Text(room.nbNewMessages.toString()),
+          //   ),
+          if (room.nbMessages != 0)
             Badge(
               backgroundColor: Theme.of(context).colorScheme.tertiary,
-              label: Text(room.nbNewMessages.toString()),
+              label: Text(room.nbMessages.toString()),
             ),
         ],
       ),
